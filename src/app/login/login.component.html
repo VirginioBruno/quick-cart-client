@@ -1,0 +1,11 @@
+
+<form id="form-login" action="">       
+    <h3>Sign in to your account</h3>
+    <label for="user">User</label>
+    <input id="username" type="text" name="username" [(ngModel)]="username" required>
+
+    <label for="password">Password</label>
+    <input id="password" type="password" name="password" [(ngModel)]="password" required>
+    
+    <button (click)="login()">Send</button>
+</form>

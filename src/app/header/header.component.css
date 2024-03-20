@@ -1,0 +1,11 @@
+.header-container {
+    background-color: lightblue;
+    height: 120px;
+    width: 100%;
+    color: black;
+}
+
+a {
+    margin-right: 10px;
+}
+
